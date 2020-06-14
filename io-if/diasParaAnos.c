@@ -1,0 +1,15 @@
+#include <stdio.h>
+/*
+    Another simple program
+    convert days into years
+*/
+int main()
+{
+    int Dias;
+    float Anos;
+    printf("Entre com o número de dias: ");
+    scanf("%d",&Dias);
+    Anos=Dias/365.25;
+    printf("\n\n%d dias equivalem a %f anos. \n",Dias,Anos);
+    return(0);
+}

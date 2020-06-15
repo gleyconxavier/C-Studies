@@ -2,7 +2,10 @@
 
 /*
     Some string manipulation, buffer clearing,
-    also reading strings with whitespaces
+    also reading strings with whitespaces,
+    since strings are array/vectors like,
+    we can return their respective characters
+    with string[char_position]
 */
 
 int main()
@@ -19,5 +22,7 @@ int main()
     printf("\nFrases inseridas: \n");
     printf("\nPrimeira: %s", firstString);
     printf("\nSegunda: %s", secondString);
+    printf("\nSegunda letra da primeira string: %c", firstString[1]);
+    printf("\nSegunda letra da segunda string: %c\n", secondString[1]);
     return(0);
 }

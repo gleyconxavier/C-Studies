@@ -2,6 +2,7 @@
 
 // char declares a vector of characters with a number of positions.
 // gets() should not be used instead we can use fgets(buf, MAX, stdin);
+// %s should be used for strings ex. "algo" and %c for characters ex. 'D'
 
 char stringManipulation()
 {
